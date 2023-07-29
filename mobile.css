@@ -382,7 +382,7 @@ education
 #hobbies-con {
     background-color: var(--doc-bg);
     width: 100vw;
-    height: 240vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     place-items: center;
@@ -399,7 +399,7 @@ education
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
-
+    height: 25%;
     width: 90%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -416,10 +416,11 @@ education
 .hobby-text-con {
     display: grid;
     place-items: center;
-    padding: 15%;
+    padding: 5%;
 }
 .hobby-text {
     text-align: justify;
+    font-size: 0.5rem;
 }
 
 .hobby-text-header {
@@ -705,7 +706,7 @@ input,textarea {
 
 @media screen and (max-height: 670px) {
     #hobbies-con {
-        height: 350vh;
+        height: 200vh;
     }
 
     .slider {
