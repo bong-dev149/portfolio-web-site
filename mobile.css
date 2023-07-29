@@ -697,6 +697,30 @@ input,textarea {
     transition: ease-in-out 0.2s all;
 }
 
-a {
+.back-to-top a {
     text-decoration: none;
+}
+
+
+
+@media screen and (max-height: 670px) {
+    #hobbies-con {
+        height: 350vh;
+    }
+
+    .slider {
+        margin-top: -50%;
+    }
+
+    .slide-text {
+        font-size: 0.5rem;
+    }
+
+
+    .contact-con {
+        margin-top: 10%;
+    }
+
+
+
 }
