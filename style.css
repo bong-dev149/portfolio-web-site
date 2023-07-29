@@ -614,3 +614,7 @@ input,textarea {
 .edu-logo{
     width: 50%
 }
+
+.back-to-top {
+    display: none;
+}
